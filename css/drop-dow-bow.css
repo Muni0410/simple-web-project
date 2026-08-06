@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown{
+position: relative;
+background-color: aliceblue;
+padding: 10px 20px;
+
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: chartreuse;
+    min-width: 100px;
+    padding: 10px 20px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}

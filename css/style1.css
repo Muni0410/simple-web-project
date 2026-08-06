@@ -9,14 +9,20 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 li a{
     float: left;
 }
 
+ul li :last-child{
+    border-right: none;
+   
+}
 ul li a{
-    display: block;
+    border: 1px solid rgb(0, 0, 0);
     text-decoration: none;
     text-align: center;
     color: black;
