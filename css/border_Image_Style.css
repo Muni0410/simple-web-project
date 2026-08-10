@@ -1,0 +1,11 @@
+h1 {
+    background-color:white;
+    
+
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 80px;
+
+    border: 10px solid transparent;
+    border-image: url(/img/triangle.png) 120 stretch;
+}
